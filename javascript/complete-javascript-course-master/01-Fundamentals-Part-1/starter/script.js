@@ -32,8 +32,39 @@ console.log(myFirstTeacher); */
 // console.log(typeof year);
 // console.log(typeof null);
 
-let age = 29;
-age = 32;
+// let age = 29;
+// age = 32;
 
-const birthYear = 1994;
-birthYear = 1990;
+// const birthYear = 1994;
+// // birthYear = 1990;
+// // const job;
+
+// var job = "programmer";
+// job = "teacher";
+
+// lastName = "oliveira";
+// console.log(lastName);
+
+//OPERATORS: An operator allows you to transform values or combine multiple values
+
+const now = 2030;
+const ageWesley = now - 1994;
+const ageSarah = now - 1996
+console.log(ageWesley * 2, ageSarah / 10, 2 ** 3);
+// 2 ** 3 means 2 to the power of 3  2 * 2 * 2
+
+const firstName = 'Jon';
+const lastName = 'Jones';
+console.log(firstName, ' ' + lastName);
+
+// Assignment operators
+let x = 10 + 5; // 15
+x += 10; // x = x + 10 = 25
+x *= 10; // x = x * 10
+x++;// x + 1
+x--; // x - 1
+console.log(x);
+
+// Comparisson operators
+console.log(ageWesley > ageSarah); // >, <, =>, <=
+console.log(ageSarah <= 18);

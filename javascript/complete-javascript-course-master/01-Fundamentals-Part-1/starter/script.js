@@ -68,3 +68,6 @@ console.log(x);
 // Comparisson operators
 console.log(ageWesley > ageSarah); // >, <, =>, <=
 console.log(ageSarah <= 18);
+
+//This is a test for GIT
+
